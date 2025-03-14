@@ -4,6 +4,6 @@ from rest_framework.response import Response
 
 @api_view(['GET'])
 def company_details(request):
-    return Response({'company_name': '---',
-                     'slogan':'---',
-                     'contacts': '---'})
+    return Response({'company_name': 'Веселые бегуны',
+                     'slogan':'Бежим посмеиваясь',
+                     'contacts': 'г. Сосновск, ул. Сосновая 16'})
